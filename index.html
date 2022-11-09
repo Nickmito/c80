@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C80</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+
+</head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	Lista de Jogos
+</h3>
+
+<div id="rows">
+<span>1</span>
+<input type="text" placeholder="Jogo" id="nome1">
+<br>
+
+<span>2</span>
+<input type="text" placeholder="Jogo" id="nome2">
+<br>
+
+<span>3</span>
+<input type="text" placeholder="Jogo" id="nome3">
+<br>
+
+<span>4</span>
+<input type="text" placeholder="Jogo" id="nome4">
+</div>
+
+<button onclick="submit()" id="enviar">
+	Enviar
+</button>
+
+<div id="TelaComVirgula">
+</div>
+
+<hr>
+
+<div id="TelaSemVirgula">
+</div>
+
+
+<button onclick="sorting()" id="organizar">
+	Organizar
+</button>
+
+<!--Atividade Adicional-->
+<br>
+<button onclick="newUpdate()">Novo Botão Atualizar</button>
+</center>
+<input type="text" placeholder="pesquisar" id="s1">
+<button onclick="searching()" id="srch">pesquisar</button>
+<p id="p2"></p>
+<script type="text/javascript"></script>
+</script>
+</body>
+</html>
